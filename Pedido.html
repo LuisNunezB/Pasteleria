@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PASTELERIA - DON LUIS</title>
+    
+</head>
+<body>
+        <center>
+            <img src="./logoDonLuis.jpg" alt="logo Don Luis" width="250px" height="250px">
+        </center>        
+        <h2>Haga su pedido</h2>
+        <label for="NombreCompleto">Nombre Completo:   </label>
+        <input  type="text" id="NombreCompleto" name="NombreCompleto" ><br><br>
+        <label for="Telefono">Teléfono:               </label>
+        <input  type="tel" id="Telefono" name="Telefono" value="" maxlength="10"><br><br>
+        <label for="Email">Correo Electrónico:   </label>
+        <input  type="email" id="Email" name="Email" value="" ><br><br>
+        <label for="Descripcion">Descripción del Pastel:   </label>
+        <input  type="text" id="Descripcion" name="Descripcion" ><br>
+        
+        <h4>Elija su sabor:</h4>
+        <input type="checkbox"id="Sabor1" name="fav_sabor" value="tresLeches">
+        <label for="tresLeches">Tres Leches</label><br>
+        <input type="checkbox"id="Sabor2" name="fav_sabor" value="tresLechesFresas">
+        <label for="tresLechesFresas">Tres Leches con Fresas</label><br>
+        <input type="checkbox"id="Sabor3" name="fav_sabor" value="tresLechesFudge">
+        <label for="tresLechesFudge">Tres Leches y Fudge</label><br>
+        <input type="checkbox"id="Sabor4" name="fav_sabor" value="tresLechesFrutas">
+        <label for="tresLechesFrutas">Tres Leches con Frutas</label><br>
+        <input type="checkbox"id="Sabor5" name="fav_sabor" value="tresLechesCoco">
+        <label for="tresLechesCoco">Tres Leches con Coco</label><br>
+        <input type="checkbox"id="Sabor6" name="fav_sabor" value="cremaChocolate">
+        <label for="cremaChocolate">Crema de Chocolate</label><br>
+        <input type="checkbox"id="Sabor7" name="fav_sabor" value="Elote">
+        <label for="Elote">Elote</label><br>
+        <h4>Elija su decoración:</h4>
+        <input type="checkbox"id="chispasChocolate" name="fav_decoracion" value="chispasChocolate">
+        <label for="chispasChocolate">Chispas de Chocolate</label><br>        
+        <input type="checkbox"id="cremaMantequilla" name="fav_decoracion" value="cremaMantequilla">
+        <label for="chispasChocolate">Crema de Mantequilla</label><br>
+        <input type="checkbox"id="decoracion3D" name="fav_decoracion" value="decoracion3D">
+        <label for="decoracion3D">Decoración 3D</label><br>
+
+        <input  type="button" id="Boton1" name="Boton1" Value="Hacer pedido" onclick="alert('Pedido realizado')">
+
+
+        
+
+</body>
